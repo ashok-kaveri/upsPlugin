@@ -4,8 +4,8 @@ import { createWooOrder } from '../../src/api/wooOrderApi';
 test.describe.serial('Single Label Generation from Orders Grid', () => {
   let orderId: string;
 
-  test('Create order from api', async ({ page, pages }) => {
-    const apiOrder = await createWooOrder(1946, 1, 1);
+  test.only('Create order from api', async ({ page, pages }) => {
+    const apiOrder = await createWooOrder(179, 1, 1);
     expect(apiOrder.id).toBeTruthy();
     orderId = apiOrder.id.toString();
   });

@@ -1,3 +1,4 @@
 site_url ="https://woocommerce-432251-6014015.cloudwaysapps.com"
 userName ='vyshnavi@pluginhive.com'
 pass ='vX%MJ2Wy%Wc%JdhGArkeE!P^'
+SLACK_WEBHOOK_URL='https://hooks.slack.com/services/your/webhook/url'

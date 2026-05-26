@@ -5,7 +5,7 @@ test.describe.serial('Pack Items Individually', () => {
   let orderId: string;
   let orderShipping: any;
   let serviceName = 'UPS Next Day Air®';
-  let productId = 1946;
+  let productId = 80;
   let quantityOfProduct = 2;
 
   test('Change Packaging type to "Default: Pack items individually"', async ({ page, pages }) => {

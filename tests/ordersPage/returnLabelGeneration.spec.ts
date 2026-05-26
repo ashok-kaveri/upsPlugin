@@ -7,7 +7,7 @@ test.describe.serial('Return Label Generation', () => {
   let serviceName = 'UPS Next Day Air®';
 
   test('Create order from api', async ({ page, pages }) => {
-    const apiOrder = await createWooOrder(1946, 1, 1, upsServiceCodes[serviceName], serviceName);
+    const apiOrder = await createWooOrder(80, 1, 1, upsServiceCodes[serviceName], serviceName);
     orderId = apiOrder.id;
     orderShipping = apiOrder.shipping;
     expect(apiOrder.id).toBeTruthy();

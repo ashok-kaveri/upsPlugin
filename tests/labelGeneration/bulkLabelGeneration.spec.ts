@@ -5,7 +5,7 @@ test.describe.serial('Bulk Label Generation', () => {
   let orderIds: string[];
 
   test('Create order from api', async ({ page, pages }) => {
-    const apiOrders = await createWooOrder(1946, 1, 10);
+    const apiOrders = await createWooOrder(80, 1, 10);
     for (const order of apiOrders) {
       expect(order.id).toBeTruthy();
     }

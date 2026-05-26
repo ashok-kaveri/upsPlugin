@@ -2,7 +2,7 @@ import { request } from '@playwright/test';
 const { faker } = require('@faker-js/faker');
 
 export async function createWooOrder(
-  productId: number = 1946,
+  productId: number = 80,
   quantity: number = 1,
   numOfOrders: number = 1,
   serviceCode: string = '12',

@@ -7,7 +7,7 @@ for (const [serviceName, serviceCode] of Object.entries(upsServiceCodes)) {
     let orderShipping: any;
 
     test('Create order from api', async ({ page, pages }) => {
-      const apiOrder = await createWooOrder(1946, 1, 1, serviceCode, serviceName);
+      const apiOrder = await createWooOrder(80, 1, 1, serviceCode, serviceName);
       orderId = apiOrder.id;
       orderShipping = apiOrder.shipping;
       expect(apiOrder.id).toBeTruthy();

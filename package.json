@@ -12,8 +12,10 @@
   "devDependencies": {
     "@faker-js/faker": "^10.3.0",
     "@playwright/test": "^1.58.2",
+    "@slack/types": "^2.18.0",
     "@types/node": "^25.3.2",
     "@types/pdf-parse": "^1.1.5",
+    "playwright-slack-report": "^1.1.110",
     "typescript": "^5.7.2"
   },
   "dependencies": {
