@@ -1,0 +1,717 @@
+{
+  "siteUrl": "https://woocommerce-165470-5355702.cloudwaysapps.com",
+  "simple": {
+    "1": {
+      "id": 2443,
+      "name": "1. Simple Product",
+      "slug": "1-simple-product",
+      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/1-simple-product/",
+      "date_created": "2026-05-27T11:47:53",
+      "date_created_gmt": "2026-05-27T06:17:53",
+      "date_modified": "2026-05-27T11:47:53",
+      "date_modified_gmt": "2026-05-27T06:17:53",
+      "type": "simple",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Standard test product: 1. Simple Product</p>\n",
+      "short_description": "",
+      "sku": "1-simple-product-1779862672538",
+      "price": "10.00",
+      "regular_price": "10.00",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 99999,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "1",
+      "dimensions": {
+        "length": "5",
+        "width": "5",
+        "height": "5"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [],
+      "attributes": [],
+      "default_attributes": [],
+      "variations": [],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
+      "related_ids": [
+        633,
+        627,
+        905,
+        910,
+        914
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": false,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2443",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    "2": {
+      "id": 2444,
+      "name": "2. Simple Product",
+      "slug": "2-simple-product",
+      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/2-simple-product/",
+      "date_created": "2026-05-27T11:47:53",
+      "date_created_gmt": "2026-05-27T06:17:53",
+      "date_modified": "2026-05-27T11:47:53",
+      "date_modified_gmt": "2026-05-27T06:17:53",
+      "type": "simple",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Standard test product: 2. Simple Product</p>\n",
+      "short_description": "",
+      "sku": "2-simple-product-1779862672690",
+      "price": "10.00",
+      "regular_price": "10.00",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 99999,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "1",
+      "dimensions": {
+        "length": "5",
+        "width": "5",
+        "height": "5"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [],
+      "attributes": [],
+      "default_attributes": [],
+      "variations": [],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
+      "related_ids": [
+        717,
+        346,
+        716,
+        905,
+        661
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": false,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2444",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    }
+  },
+  "variable": {
+    "1": {
+      "id": 2447,
+      "name": "1. Variable Product",
+      "slug": "1-variable-product",
+      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/1-variable-product/",
+      "date_created": "2026-05-27T11:48:00",
+      "date_created_gmt": "2026-05-27T06:18:00",
+      "date_modified": "2026-05-27T11:48:02",
+      "date_modified_gmt": "2026-05-27T06:18:02",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Standard test product: 1. Variable Product</p>\n",
+      "short_description": "",
+      "sku": "1-variable-product-1779862679685",
+      "price": "10.00",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Colour",
+          "slug": "Colour",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "Black",
+            "Green"
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Size",
+          "slug": "Size",
+          "position": 1,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "S",
+            "M"
+          ]
+        }
+      ],
+      "default_attributes": [],
+      "variations": [
+        2448
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
+      "related_ids": [
+        908,
+        239,
+        717,
+        913,
+        716
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2447",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    "2": {
+      "id": 2449,
+      "name": "2. Variable Product",
+      "slug": "2-variable-product",
+      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/2-variable-product/",
+      "date_created": "2026-05-27T11:48:04",
+      "date_created_gmt": "2026-05-27T06:18:04",
+      "date_modified": "2026-05-27T11:48:05",
+      "date_modified_gmt": "2026-05-27T06:18:05",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Standard test product: 2. Variable Product</p>\n",
+      "short_description": "",
+      "sku": "2-variable-product-1779862683575",
+      "price": "10.00",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [],
+      "attributes": [
+        {
+          "id": 0,
+          "name": "Colour",
+          "slug": "Colour",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "Black",
+            "Green"
+          ]
+        },
+        {
+          "id": 0,
+          "name": "Size",
+          "slug": "Size",
+          "position": 1,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "S",
+            "M"
+          ]
+        }
+      ],
+      "default_attributes": [],
+      "variations": [
+        2450
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
+      "related_ids": [
+        932,
+        240,
+        628,
+        922,
+        908
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2449",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    }
+  },
+  "digital": {
+    "1": {
+      "id": 2445,
+      "name": "1. Digital Product",
+      "slug": "1-digital-product",
+      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/1-digital-product/",
+      "date_created": "2026-05-27T11:47:57",
+      "date_created_gmt": "2026-05-27T06:17:57",
+      "date_modified": "2026-05-27T11:47:57",
+      "date_modified_gmt": "2026-05-27T06:17:57",
+      "type": "simple",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Standard test product: 1. Digital Product</p>\n",
+      "short_description": "",
+      "sku": "1-digital-product-1779862676127",
+      "price": "10.00",
+      "regular_price": "10.00",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": true,
+      "downloadable": true,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 99999,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": false,
+      "shipping_taxable": false,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [],
+      "attributes": [],
+      "default_attributes": [],
+      "variations": [],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
+      "related_ids": [
+        657,
+        661,
+        633,
+        654,
+        914
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": false,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2445",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    "2": {
+      "id": 2446,
+      "name": "2. Digital Product",
+      "slug": "2-digital-product",
+      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/2-digital-product/",
+      "date_created": "2026-05-27T11:47:57",
+      "date_created_gmt": "2026-05-27T06:17:57",
+      "date_modified": "2026-05-27T11:47:57",
+      "date_modified_gmt": "2026-05-27T06:17:57",
+      "type": "simple",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "<p>Standard test product: 2. Digital Product</p>\n",
+      "short_description": "",
+      "sku": "2-digital-product-1779862676237",
+      "price": "10.00",
+      "regular_price": "10.00",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": true,
+      "downloadable": true,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 99999,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_required": false,
+      "shipping_taxable": false,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 15,
+          "name": "Uncategorized",
+          "slug": "uncategorized"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [],
+      "attributes": [],
+      "default_attributes": [],
+      "variations": [],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
+      "related_ids": [
+        239,
+        352,
+        346,
+        922,
+        908
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": false,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2446",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    }
+  }
+}

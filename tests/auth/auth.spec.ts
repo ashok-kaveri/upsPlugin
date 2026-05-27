@@ -1,6 +1,7 @@
 import { test as setup, expect } from '@playwright/test';
 import path from 'path';
 import { LoginPage } from '../../src/pages/auth/loginPage';
+import { ensureStoreProducts } from '../../src/api';
 
 const authFile = path.join(__dirname, '../../playwright/.auth/user.json');
 
@@ -15,4 +16,8 @@ setup('authenticate', async ({ page }) => {
   await page.waitForLoadState('load');
   await page.waitForURL(`${process.env.site_url!}/wp-admin/`);
   await page.context().storageState({ path: './playwright/.auth/user.json' });
+});
+
+setup('setup standard products', async () => {
+  await ensureStoreProducts();
 });

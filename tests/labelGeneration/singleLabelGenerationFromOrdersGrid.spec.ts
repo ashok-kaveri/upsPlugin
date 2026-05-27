@@ -1,11 +1,13 @@
 import { test, expect } from '../fixtures/fixtures';
-import { createWooOrder } from '../../src/api/wooOrderApi';
+import { createWooOrder } from '../../src/api';
+import { loadStoreProducts } from '../testData/storeProducts';
 
 test.describe.serial('Single Label Generation from Orders Grid', () => {
   let orderId: string;
 
   test('Create order from api', async ({ page, pages }) => {
-    const apiOrder = await createWooOrder(179, 1, 1);
+    const { simple } = loadStoreProducts();
+    const apiOrder = await createWooOrder(simple[1].id, 1, 1);
     expect(apiOrder.id).toBeTruthy();
     orderId = apiOrder.id.toString();
   });
