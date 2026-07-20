@@ -2,7 +2,7 @@ import { test, expect, upsServiceCodes } from "../fixtures/fixtures";
 import { createWooOrder } from "../../src/api";
 import { loadStoreProducts } from "../testData/storeProducts";
 
-test.describe.serial("Label Flow with Api Order", () => {
+test.describe.serial("Label Flow with Api Order", { tag: ["@smoke", "@sanity", "@regression"] }, () => {
   let orderId: string;
   let orderShipping: any;
   let serviceName = "UPS Next Day Air®";

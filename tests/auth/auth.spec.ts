@@ -7,7 +7,7 @@ const authFile = path.join(__dirname, '../../playwright/.auth/user.json');
 
 setup.use({ storageState: { cookies: [], origins: [] } });
 
-setup('authenticate', async ({ page }) => {
+setup('authenticate', { tag: ['@smoke', '@sanity', '@regression'] }, async ({ page }) => {
   const loginPage = new LoginPage(page);
   await page.goto(`${process.env.site_url!}/wp-admin/`);
   await loginPage.userName.fill(process.env.userName!);
@@ -18,6 +18,6 @@ setup('authenticate', async ({ page }) => {
   await page.context().storageState({ path: './playwright/.auth/user.json' });
 });
 
-setup('setup standard products', async () => {
+setup('setup standard products', { tag: ['@smoke', '@sanity', '@regression'] }, async () => {
   await ensureStoreProducts();
 });

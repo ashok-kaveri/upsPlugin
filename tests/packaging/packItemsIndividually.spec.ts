@@ -2,7 +2,7 @@ import { test, expect, upsServiceCodes } from "../fixtures/fixtures";
 import { createWooOrder } from "../../src/api";
 import { loadStoreProducts } from "../testData/storeProducts";
 
-test.describe.serial("Pack Items Individually", () => {
+test.describe.serial("Pack Items Individually", { tag: ["@regression"] }, () => {
   let orderId: string;
   let orderShipping: any;
   let serviceName = "UPS Next Day Air®";

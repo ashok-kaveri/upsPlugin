@@ -3,7 +3,7 @@ import { createWooOrder } from "../../src/api";
 import { loadStoreProducts } from "../testData/storeProducts";
 
 for (const [serviceName, serviceCode] of Object.entries(upsServiceCodes)) {
-  test.describe.serial(`Label Flow - ${serviceName}`, () => {
+  test.describe.serial(`Label Flow - ${serviceName}`, { tag: ["@regression"] }, () => {
     let orderId: string;
     let orderShipping: any;
 

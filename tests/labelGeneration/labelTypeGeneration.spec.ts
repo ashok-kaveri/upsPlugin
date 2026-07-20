@@ -8,7 +8,7 @@ import { BasePage } from "../../src/pages/basePage";
 const labelTypes = ["GIF", "PNG", "ZPL", "EPL"];
 
 for (const labelType of labelTypes) {
-  test.describe.serial(`Label Type - ${labelType}`, () => {
+  test.describe.serial(`Label Type - ${labelType}`, { tag: ["@regression"] }, () => {
     let orderId: string;
     let orderShipping: any;
     const serviceName = "UPS Next Day Air®";

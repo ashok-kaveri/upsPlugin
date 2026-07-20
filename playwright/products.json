@@ -1,22 +1,22 @@
 {
-  "siteUrl": "https://woocommerce-165470-5355702.cloudwaysapps.com",
+  "siteUrl": "https://woocommerce-432251-5575216.cloudwaysapps.com",
   "simple": {
     "1": {
-      "id": 2443,
+      "id": 240,
       "name": "1. Simple Product",
       "slug": "1-simple-product",
-      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/1-simple-product/",
-      "date_created": "2026-05-27T11:47:53",
-      "date_created_gmt": "2026-05-27T06:17:53",
-      "date_modified": "2026-05-27T11:47:53",
-      "date_modified_gmt": "2026-05-27T06:17:53",
+      "permalink": "https://woocommerce-432251-5575216.cloudwaysapps.com/product/1-simple-product/",
+      "date_created": "2026-05-27T11:57:28",
+      "date_created_gmt": "2026-05-27T06:27:28",
+      "date_modified": "2026-07-20T15:13:07",
+      "date_modified_gmt": "2026-07-20T09:43:07",
       "type": "simple",
       "status": "publish",
       "featured": false,
       "catalog_visibility": "visible",
       "description": "<p>Standard test product: 1. Simple Product</p>\n",
       "short_description": "",
-      "sku": "1-simple-product-1779862672538",
+      "sku": "1-simple-product-1779863246961",
       "price": "10.00",
       "regular_price": "10.00",
       "sale_price": "",
@@ -26,7 +26,7 @@
       "date_on_sale_to_gmt": null,
       "on_sale": false,
       "purchasable": true,
-      "total_sales": 0,
+      "total_sales": 27,
       "virtual": false,
       "downloadable": false,
       "downloads": [],
@@ -37,7 +37,7 @@
       "tax_status": "taxable",
       "tax_class": "",
       "manage_stock": true,
-      "stock_quantity": 99999,
+      "stock_quantity": 99972,
       "backorders": "no",
       "backorders_allowed": false,
       "backordered": false,
@@ -77,11 +77,11 @@
       "menu_order": 0,
       "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
       "related_ids": [
-        633,
-        627,
-        905,
-        910,
-        914
+        174,
+        242,
+        14,
+        175,
+        173
       ],
       "meta_data": [],
       "stock_status": "instock",
@@ -91,7 +91,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2443",
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products/240",
             "targetHints": {
               "allow": [
                 "GET",
@@ -105,27 +105,27 @@
         ],
         "collection": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products"
           }
         ]
       }
     },
     "2": {
-      "id": 2444,
+      "id": 239,
       "name": "2. Simple Product",
       "slug": "2-simple-product",
-      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/2-simple-product/",
-      "date_created": "2026-05-27T11:47:53",
-      "date_created_gmt": "2026-05-27T06:17:53",
-      "date_modified": "2026-05-27T11:47:53",
-      "date_modified_gmt": "2026-05-27T06:17:53",
+      "permalink": "https://woocommerce-432251-5575216.cloudwaysapps.com/product/2-simple-product/",
+      "date_created": "2026-05-27T11:57:27",
+      "date_created_gmt": "2026-05-27T06:27:27",
+      "date_modified": "2026-05-27T11:57:27",
+      "date_modified_gmt": "2026-05-27T06:27:27",
       "type": "simple",
       "status": "publish",
       "featured": false,
       "catalog_visibility": "visible",
       "description": "<p>Standard test product: 2. Simple Product</p>\n",
       "short_description": "",
-      "sku": "2-simple-product-1779862672690",
+      "sku": "2-simple-product-1779863246648",
       "price": "10.00",
       "regular_price": "10.00",
       "sale_price": "",
@@ -186,11 +186,11 @@
       "menu_order": 0,
       "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
       "related_ids": [
-        717,
-        346,
-        716,
-        905,
-        661
+        173,
+        14,
+        245,
+        242,
+        174
       ],
       "meta_data": [],
       "stock_status": "instock",
@@ -200,7 +200,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2444",
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products/239",
             "targetHints": {
               "allow": [
                 "GET",
@@ -214,7 +214,7 @@
         ],
         "collection": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products"
           }
         ]
       }
@@ -222,21 +222,21 @@
   },
   "variable": {
     "1": {
-      "id": 2447,
+      "id": 243,
       "name": "1. Variable Product",
       "slug": "1-variable-product",
-      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/1-variable-product/",
-      "date_created": "2026-05-27T11:48:00",
-      "date_created_gmt": "2026-05-27T06:18:00",
-      "date_modified": "2026-05-27T11:48:02",
-      "date_modified_gmt": "2026-05-27T06:18:02",
+      "permalink": "https://woocommerce-432251-5575216.cloudwaysapps.com/product/1-variable-product/",
+      "date_created": "2026-05-27T11:57:34",
+      "date_created_gmt": "2026-05-27T06:27:34",
+      "date_modified": "2026-05-27T11:57:36",
+      "date_modified_gmt": "2026-05-27T06:27:36",
       "type": "variable",
       "status": "publish",
       "featured": false,
       "catalog_visibility": "visible",
       "description": "<p>Standard test product: 1. Variable Product</p>\n",
       "short_description": "",
-      "sku": "1-variable-product-1779862679685",
+      "sku": "1-variable-product-1779863253743",
       "price": "10.00",
       "regular_price": "",
       "sale_price": "",
@@ -318,17 +318,17 @@
       ],
       "default_attributes": [],
       "variations": [
-        2448
+        244
       ],
       "grouped_products": [],
       "menu_order": 0,
       "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
       "related_ids": [
-        908,
+        179,
+        63,
         239,
-        717,
-        913,
-        716
+        245,
+        174
       ],
       "meta_data": [],
       "stock_status": "instock",
@@ -338,7 +338,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2447",
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products/243",
             "targetHints": {
               "allow": [
                 "GET",
@@ -352,27 +352,27 @@
         ],
         "collection": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products"
           }
         ]
       }
     },
     "2": {
-      "id": 2449,
+      "id": 245,
       "name": "2. Variable Product",
       "slug": "2-variable-product",
-      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/2-variable-product/",
-      "date_created": "2026-05-27T11:48:04",
-      "date_created_gmt": "2026-05-27T06:18:04",
-      "date_modified": "2026-05-27T11:48:05",
-      "date_modified_gmt": "2026-05-27T06:18:05",
+      "permalink": "https://woocommerce-432251-5575216.cloudwaysapps.com/product/2-variable-product/",
+      "date_created": "2026-05-27T11:57:39",
+      "date_created_gmt": "2026-05-27T06:27:39",
+      "date_modified": "2026-05-27T11:57:41",
+      "date_modified_gmt": "2026-05-27T06:27:41",
       "type": "variable",
       "status": "publish",
       "featured": false,
       "catalog_visibility": "visible",
       "description": "<p>Standard test product: 2. Variable Product</p>\n",
       "short_description": "",
-      "sku": "2-variable-product-1779862683575",
+      "sku": "2-variable-product-1779863257839",
       "price": "10.00",
       "regular_price": "",
       "sale_price": "",
@@ -454,17 +454,17 @@
       ],
       "default_attributes": [],
       "variations": [
-        2450
+        246
       ],
       "grouped_products": [],
       "menu_order": 0,
       "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
       "related_ids": [
-        932,
+        181,
+        178,
         240,
-        628,
-        922,
-        908
+        80,
+        242
       ],
       "meta_data": [],
       "stock_status": "instock",
@@ -474,7 +474,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2449",
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products/245",
             "targetHints": {
               "allow": [
                 "GET",
@@ -488,7 +488,7 @@
         ],
         "collection": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products"
           }
         ]
       }
@@ -496,21 +496,21 @@
   },
   "digital": {
     "1": {
-      "id": 2445,
+      "id": 241,
       "name": "1. Digital Product",
       "slug": "1-digital-product",
-      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/1-digital-product/",
-      "date_created": "2026-05-27T11:47:57",
-      "date_created_gmt": "2026-05-27T06:17:57",
-      "date_modified": "2026-05-27T11:47:57",
-      "date_modified_gmt": "2026-05-27T06:17:57",
+      "permalink": "https://woocommerce-432251-5575216.cloudwaysapps.com/product/1-digital-product/",
+      "date_created": "2026-05-27T11:57:32",
+      "date_created_gmt": "2026-05-27T06:27:32",
+      "date_modified": "2026-05-27T11:57:32",
+      "date_modified_gmt": "2026-05-27T06:27:32",
       "type": "simple",
       "status": "publish",
       "featured": false,
       "catalog_visibility": "visible",
       "description": "<p>Standard test product: 1. Digital Product</p>\n",
       "short_description": "",
-      "sku": "1-digital-product-1779862676127",
+      "sku": "1-digital-product-1779863250380",
       "price": "10.00",
       "regular_price": "10.00",
       "sale_price": "",
@@ -571,11 +571,11 @@
       "menu_order": 0,
       "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
       "related_ids": [
-        657,
-        661,
-        633,
-        654,
-        914
+        243,
+        245,
+        242,
+        67,
+        80
       ],
       "meta_data": [],
       "stock_status": "instock",
@@ -585,7 +585,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2445",
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products/241",
             "targetHints": {
               "allow": [
                 "GET",
@@ -599,27 +599,27 @@
         ],
         "collection": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products"
           }
         ]
       }
     },
     "2": {
-      "id": 2446,
+      "id": 242,
       "name": "2. Digital Product",
       "slug": "2-digital-product",
-      "permalink": "https://woocommerce-165470-5355702.cloudwaysapps.com/product/2-digital-product/",
-      "date_created": "2026-05-27T11:47:57",
-      "date_created_gmt": "2026-05-27T06:17:57",
-      "date_modified": "2026-05-27T11:47:57",
-      "date_modified_gmt": "2026-05-27T06:17:57",
+      "permalink": "https://woocommerce-432251-5575216.cloudwaysapps.com/product/2-digital-product/",
+      "date_created": "2026-05-27T11:57:32",
+      "date_created_gmt": "2026-05-27T06:27:32",
+      "date_modified": "2026-05-27T11:57:32",
+      "date_modified_gmt": "2026-05-27T06:27:32",
       "type": "simple",
       "status": "publish",
       "featured": false,
       "catalog_visibility": "visible",
       "description": "<p>Standard test product: 2. Digital Product</p>\n",
       "short_description": "",
-      "sku": "2-digital-product-1779862676237",
+      "sku": "2-digital-product-1779863250617",
       "price": "10.00",
       "regular_price": "10.00",
       "sale_price": "",
@@ -680,11 +680,11 @@
       "menu_order": 0,
       "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#36;</span>10.00</bdi></span>",
       "related_ids": [
-        239,
-        352,
-        346,
-        922,
-        908
+        63,
+        67,
+        177,
+        172,
+        173
       ],
       "meta_data": [],
       "stock_status": "instock",
@@ -694,7 +694,7 @@
       "_links": {
         "self": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products/2446",
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products/242",
             "targetHints": {
               "allow": [
                 "GET",
@@ -708,7 +708,7 @@
         ],
         "collection": [
           {
-            "href": "https://woocommerce-165470-5355702.cloudwaysapps.com/wp-json/wc/v3/products"
+            "href": "https://woocommerce-432251-5575216.cloudwaysapps.com/wp-json/wc/v3/products"
           }
         ]
       }

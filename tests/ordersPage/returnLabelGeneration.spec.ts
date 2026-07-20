@@ -2,7 +2,7 @@ import { test, expect, upsServiceCodes } from "../fixtures/fixtures";
 import { createWooOrder } from "../../src/api";
 import { loadStoreProducts } from "../testData/storeProducts";
 
-test.describe.serial("Return Label Generation", () => {
+test.describe.serial("Return Label Generation", { tag: ["@regression"] }, () => {
   let orderId: string;
   let orderShipping: any;
   let serviceName = "UPS Next Day Air®";

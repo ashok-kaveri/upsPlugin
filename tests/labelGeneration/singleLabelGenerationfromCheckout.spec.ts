@@ -1,6 +1,6 @@
 import { test, expect } from '../fixtures/fixtures';
 
-test.describe.serial('Label Flow with order from checkout', () => {
+test.describe.serial('Label Flow with order from checkout', { tag: ['@sanity'] }, () => {
   let orderId: string;
   let serviceName = 'UPS Next Day Air®';
 

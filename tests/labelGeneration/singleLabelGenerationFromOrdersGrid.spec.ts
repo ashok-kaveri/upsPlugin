@@ -2,7 +2,7 @@ import { test, expect } from '../fixtures/fixtures';
 import { createWooOrder } from '../../src/api';
 import { loadStoreProducts } from '../testData/storeProducts';
 
-test.describe.serial('Single Label Generation from Orders Grid', () => {
+test.describe.serial('Single Label Generation from Orders Grid', { tag: ['@regression'] }, () => {
   let orderId: string;
 
   test('Create order from api', async ({ page, pages }) => {
