@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { upsWooSlackLayout } from './src/reporters/slackLayout';
 
-dotenv.config({ path: path.resolve(__dirname, '.env'), quiet: true });
+dotenv.config({ path: path.resolve(__dirname, '.env'), quiet: true, override: true });
 
 const reporters = [['html']] as NonNullable<
   ReturnType<typeof defineConfig>['reporter']

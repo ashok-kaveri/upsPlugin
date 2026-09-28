@@ -21,5 +21,8 @@
   "dependencies": {
     "dotenv": "^17.3.1",
     "pdf-parse": "^1.1.1"
+  },
+  "overrides": {
+    "retry": "file:./vendor/retry-0.13.1.tgz"
   }
 }

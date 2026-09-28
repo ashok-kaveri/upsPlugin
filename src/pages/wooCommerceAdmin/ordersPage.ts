@@ -39,8 +39,8 @@ export class OrdersPage {
     this.calculateRatesBtn = this.page.locator('.button.wf_ups_generate_packages_rates');
     this.selectServiceeInWSSOrdersPage = this.page.locator('#wf_ups_service_select');
     this.editOrderHeading = this.page.getByText('Edit order');
-    this.verifyPackages = this.page.getByText('Step 2: Initiate your shipment.');
-    this.numofPackages = this.page.locator('#wf_ups_package_list tbody tr');
+    this.verifyPackages = this.page.locator('#wf_ups_service_select');
+    this.numofPackages = this.page.locator('#wf_ups_package_list .ph-ups-pkg-card');
     this.confirmShipmentBtn = this.page.locator('.button.ups_create_shipment');
     this.printLabelInWSSOrdersPage = this.page.getByRole('link', { name: 'Print Label' });
     this.printReturnLabelInWSSOrdersPage = this.page.getByRole('link', { name: 'Print Return Label' });
@@ -62,7 +62,7 @@ export class OrdersPage {
   }
 
   async numberOfPackagesInOrdersPage(quantityOfProduct: number) {
-    const numOfPackages = (await this.numofPackages.count()) - 1;
+    const numOfPackages = await this.numofPackages.count();
     if (quantityOfProduct === numOfPackages) {
       console.log(`Number of packages ${numOfPackages} and is matching to the quantity of product.`);
     } else {

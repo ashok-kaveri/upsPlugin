@@ -38,6 +38,27 @@ function digitalPayload(name: string): SimpleProductPayload {
   return { ...simplePayload(name), virtual: true, downloadable: true };
 }
 
+// No weight/dimensions on purpose: products that already carry their own weight/dimensions
+// are shipped "as-is" by the plugin (Box / Container = "Unpacked Product"), bypassing the
+// "Pack into boxes" algorithm entirely. A dimensionless product is what actually exercises
+// box-fitting.
+const BOX_PACKING_TEST_PRODUCT_NAME = 'Box Packing Test Product (No Dimensions)';
+
+function dimensionlessPayload(name: string): SimpleProductPayload {
+  return {
+    name,
+    type: 'simple',
+    status: 'publish',
+    regular_price: DEFAULT_SPECS.price,
+    description: `Standard test product: ${name}`,
+    sku: `${name.replace(/\W+/g, '-').toLowerCase()}-${Date.now()}`,
+    weight: '',
+    dimensions: { length: '', width: '', height: '' },
+    manage_stock: true,
+    stock_quantity: 99999,
+  };
+}
+
 function variablePayload(name: string): VariableProductPayload {
   return {
     name,
@@ -74,6 +95,10 @@ async function findOrCreate(name: string, create: () => Promise<WooProduct>): Pr
   }
   console.log(`➕ Creating: "${name}"`);
   return create();
+}
+
+export async function ensureBoxPackingTestProduct(): Promise<WooProduct> {
+  return findOrCreate(BOX_PACKING_TEST_PRODUCT_NAME, () => productService.create(dimensionlessPayload(BOX_PACKING_TEST_PRODUCT_NAME)));
 }
 
 export async function ensureStoreProducts(): Promise<StoreData> {

@@ -26,7 +26,7 @@ export class HomePage {
     this.calculateRatesBtn = this.page.locator('.button.wf_ups_generate_packages_rates');
     this.selectServiceeInWSSOrdersPage = this.page.locator('#wf_ups_service_select');
     this.editOrderHeading = this.page.getByText('Edit order');
-    this.verifyPackages = this.page.getByText('Step 2: Initiate your shipment.');
+    this.verifyPackages = this.page.locator('#wf_ups_service_select');
     this.confirmShipmentBtn = this.page.locator('.button.ups_create_shipment');
     this.printLabelInWSSOrdersPage = this.page.getByRole('link', { name: 'Print Label' });
   }

@@ -82,12 +82,18 @@ export function verifyShipmentRequest(
   expect(packageWeightUnit).toBeTruthy();
   console.log(`Weight: ${pkg.PackageWeight.Weight} ${packageWeightUnit}`);
 
+  // Weight based packing legitimately sends UPS a weight-only package with no Dimensions block,
+  // so this check is skipped (not required) when dims are absent, rather than assumed present.
   const dims = pkg.Dimensions;
-  expect(parseFloat(dims.Length)).toBeGreaterThan(0);
-  expect(parseFloat(dims.Width)).toBeGreaterThan(0);
-  expect(parseFloat(dims.Height)).toBeGreaterThan(0);
-  expect(dims.UnitOfMeasurement.Code).toBeTruthy();
-  console.log(`DWT: ${dims.Length} x ${dims.Width} x ${dims.Height} ${dims.UnitOfMeasurement.Code}`);
+  if (dims) {
+    expect(parseFloat(dims.Length)).toBeGreaterThan(0);
+    expect(parseFloat(dims.Width)).toBeGreaterThan(0);
+    expect(parseFloat(dims.Height)).toBeGreaterThan(0);
+    expect(dims.UnitOfMeasurement.Code).toBeTruthy();
+    console.log(`DWT: ${dims.Length} x ${dims.Width} x ${dims.Height} ${dims.UnitOfMeasurement.Code}`);
+  } else {
+    console.log('DWT: (no Dimensions sent - weight-only package)');
+  }
 }
 
 export function verifyShipmentResponse(res: any, orderId: string, req: any, labelFormat: string = 'GIF'): Buffer[] {
