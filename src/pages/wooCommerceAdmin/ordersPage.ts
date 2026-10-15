@@ -215,13 +215,33 @@ export class OrdersPage {
     await expect(this.page.getByRole('heading', { name: 'Edit order' })).toBeVisible({ timeout: 15000 });
   }
 
+  private orderCheckbox(orderId: string): Locator {
+    return this.page.locator(`#the-list tr#order-${orderId}`).getByRole('checkbox');
+  }
+
+  /**
+   * WooCommerce binds a row-click handler to every `td` in the HPOS orders table
+   * (assets/js/admin/wc-orders.min.js) that redirects to the order edit screen. It only
+   * skips targets matching `a, a *, .no-link, .no-link *, button, button *`, and WordPress
+   * renders the checkbox cell as a `td`, so clicking a row checkbox navigates away instead
+   * of ticking it. Tag the checkboxes with the handler's own `no-link` opt-out first.
+   */
+  private async optOutOfRowClickNavigation() {
+    await this.page
+      .locator('#the-list td.check-column input[type="checkbox"]')
+      .evaluateAll((checkboxes) => checkboxes.forEach((checkbox) => checkbox.classList.add('no-link')));
+  }
+
   async selectOrdersInWSSOrdersPage(orderIds: string[]) {
     await this.page.waitForLoadState();
     await expect(this.allOrders).toBeVisible();
+    await this.optOutOfRowClickNavigation();
+
     for (const orderId of orderIds) {
-      const checkbox = this.page.locator(`#cb-select-${orderId}`);
+      const checkbox = this.orderCheckbox(orderId);
       await expect(checkbox).toBeVisible({ timeout: 15000 });
       await checkbox.check();
+      await expect(checkbox).toBeChecked();
     }
   }
 
