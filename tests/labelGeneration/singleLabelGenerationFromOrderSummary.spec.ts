@@ -32,7 +32,7 @@ test.describe.serial("Label Flow with Api Order", { tag: ["@smoke", "@sanity", "
     await pages.ordersPage.generatePackagesBtn.click();
     await expect(pages.ordersPage.calculateRatesBtn).toBeVisible();
     await pages.ordersPage.calculateRatesBtn.click();
-    await expect(pages.ordersPage.verifyPackages).toBeVisible();
+    await expect(pages.ordersPage.verifyPackages).toBeVisible({ timeout: 60000 }); // rates reload waits on live UPS Rating API (~10-15s)
     await pages.ordersPage.chooseServiceInWssOrdersPage(serviceName);
     await expect(pages.ordersPage.confirmShipmentBtn).toBeVisible();
     await pages.ordersPage.confirmShipmentBtn.click();
